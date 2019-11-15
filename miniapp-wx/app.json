@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/read/read",
+    "pages/mainpage/mainpage",
+    "pages/music/music",
+    "pages/movie/movie",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "AI-OS",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "首页",
+        "iconPath": "utils/img/index-not.png",
+        "selectedIconPath": "utils/img/index-selected.png"
+      },
+      {
+        "pagePath": "pages/read/read",
+        "text": "阅读",
+        "iconPath": "utils/img/read-not.png",
+        "selectedIconPath": "utils/img/read-selected.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "影视",
+        "iconPath": "utils/img/movie-not.png",
+        "selectedIconPath": "utils/img/movie-selected.png"
+      }
+    ]
+  }
+}
