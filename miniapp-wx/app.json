@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/mainpage/mainpage",
     "pages/index/index",
     "pages/read/read",
-    "pages/mainpage/mainpage",
     "pages/music/music",
     "pages/movie/movie",
     "pages/logs/logs"
@@ -19,7 +19,7 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/mainpage/mainpage",
         "text": "首页",
         "iconPath": "utils/img/index-not.png",
         "selectedIconPath": "utils/img/index-selected.png"
@@ -32,9 +32,15 @@
       },
       {
         "pagePath": "pages/movie/movie",
-        "text": "影视",
+        "text": "小视频",
         "iconPath": "utils/img/movie-not.png",
         "selectedIconPath": "utils/img/movie-selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "utils/img/abort-me.png",
+        "selectedIconPath": "utils/img/abort-selected.png"
       }
     ]
   }
