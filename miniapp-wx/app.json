@@ -1,12 +1,13 @@
 {
   "pages": [
+    "pages/chating/chating",
     "pages/mainpage/mainpage",
     "pages/index/index",
     "pages/read/read",
     "pages/music/music",
     "pages/movie/movie",
-    "pages/logs/logs"
     
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",

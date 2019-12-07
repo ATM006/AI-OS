@@ -1,0 +1,6 @@
+<view class="weui-footer">
+    <view class="weui-footer__links">
+        <navigator url="../chating/chating" class="weui-footer__link">bodable.cn</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright©2018 bodable.cn</view>
+</view>
